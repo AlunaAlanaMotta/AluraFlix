@@ -9,16 +9,13 @@ function Rodape() {
             <Link to="./" className={styles.logo}>
                 <img src={logo} alt="LogoAluraFlix"/>
             </Link>
-            <h2 className={styles.texto}>Desenvolvido por Sidney Rodrigues Magalhães</h2>
+            <h2 className={styles.texto}>Desenvolvido por Alana Motta</h2>
             <div className={styles.redes_sociais}>
-                <a href="https://github.com/sidneygyne" target="_blank" rel="noopener noreferrer" >
+                <a href="https://github.com/AlunaAlanaMotta" target="_blank" rel="noopener noreferrer" >
                     <IoLogoGithub className={styles.icone} alt="imagem github" />
                 </a>
-                <a href="https://www.linkedin.com/in/sidneygyn" target="_blank" rel="noopener noreferrer" >
+                <a href="https://www.linkedin.com/in/alana-motta-da-cruz-dev/" target="_blank" rel="noopener noreferrer" >
                     <IoLogoLinkedin className={styles.icone} alt="imagem linkedin" />
-                </a>
-                <a href="https://instragram.com/sidneygyn" target="_blank" rel="noopener noreferrer" >
-                    <IoLogoInstagram className={styles.icone} alt="imagem instragram" />
                 </a>
             </div>
         </footer>
